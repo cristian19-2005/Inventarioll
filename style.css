@@ -1,0 +1,171 @@
+
+body{
+  background-color: #ffffff;
+  margin: 0px;
+}
+#menu1{
+  width: 10%;
+  height: 65%;
+  position: relative;
+  top:16%;
+  left:2%;
+  background-color: #81c7c1;
+  border-radius: 2px;
+  border: 0px;
+}
+#menu1:active{
+  background-color:#a5d6d6;
+  
+}
+#menu2{
+  width: 30%;
+  height: 5%;
+  position: relative;
+  top:2%;
+  left:70%;
+  background-color: #81c7c1;
+  border-radius: 2px ;
+  color:white;
+  border: 0px;
+}
+#menu2:active{
+  background-color: #a5d6d6;
+}
+#guia{
+  background-color: #a5d6d6;
+  position: fixed;
+  width:100%;
+  height: 7%;
+}
+td{
+  border: 2px solid rgb(99,169,169);
+  width:20%;
+  height: 35px;
+  padding: 0px;
+  background-color: #ffffff;
+  text-align: center;
+  position:relative;
+  border-left: 1px solid rgb(99,169,169);
+  border-bottom: 2px solid rgb(99,169,169);
+}
+
+#productos{
+  position:absolute;
+  top: 10%;
+  width: 100%;
+  display: block;
+  
+}
+#ventastabla{
+  position:absolute;
+  top: 10%;
+  width: 100%;
+  display: none;
+  padding: 0%;
+}
+#oculto {
+  position: absolute;
+  width: 45%; /* Ancho del div */
+  height: 100%; /* Alto del div */
+  background-color: #ffffff; /* Color de fondo */
+  display: none; /* Oculto inicialmente */
+  border: 3px solid rgb(99,169,169);
+}
+#agregar {
+  height:15%;
+  width:15%;
+  border-radius:20%;
+  position:fixed;
+  right:5%;
+  bottom:5%;
+  font-size:30px;
+  background-color: rgb(109,179,179);
+  border: 0px;
+  
+}
+#agregar:active{
+  background-color:#a5d6d6;
+}
+#add , #vendido {
+  height: 70%;
+  width: 70%;
+  background-color:#ffffff;
+  left:15%;
+  top:15%;
+  position:fixed;
+  align-content: center;
+  border: 3px solid rgb(99,169,169);
+  border-radius: 3%;
+  display: none;
+}
+label{
+  position:relative;
+  left:20%
+}
+input,#produc,#bidones{
+  position: relative;
+  left:20%;
+  border: 3px solid rgb(99,169,169);
+  background-color:#a7d9d9;
+  color:black;
+  margin-bottom:10%;
+  height:25px;
+  border-radius: 5px;
+}
+#close , #closeventa{
+  bottom: 5%;
+  left:85%;
+  position: relative;
+  border: 0px;
+  background-color:#ffffff;
+  font-size: large;
+  border-radius: 5px;
+}
+#inventario,#venta {
+  height: 5%;
+  width:100%;
+  position: relative;
+  top:10%;
+  background-color: #81c7c1;
+  color:white;
+  border: 0px;
+  margin-bottom: 5%;
+}
+#conbidon{
+  height:10%;
+  width:10%;
+  border: 3px solid rgb(99,169,169);
+  border-radius:20%;
+  position:relative;
+  right:5%;
+  bottom:5%;
+  background-color: black;
+  }
+}
+#inventario:active,#venta:active{
+  background-color: #a5d6d6;
+}
+#vendi {
+  height:15%;
+  width:15%;
+  border: 3px solid rgb(99,169,169);
+  border-radius:20%;
+  position:fixed;
+  right:5%;
+  bottom:5%;
+  font-size:30px;
+  background-color: rgb(109,179,179);
+  display: none;
+}
+#vendi:active{
+  background-color:#a5d6d6;
+}
+#vendido div{
+  position:absolute;
+  height: 100%;
+  width:100%;
+  
+}
+#produc{
+  width:50%;
+}

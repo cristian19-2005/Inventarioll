@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>inventario</title>
+</head>
+<body>
+  <div id="guia">
+    <button id="menu1">LL</button>
+  </div>
+  <div id="productos1">
+  <table cellpadding="0" cellspacing="0" id="productos">
+    <tr id="producto">
+      <td class="producto">nombre</td>
+      <td class="precio">me sale</td>
+      <td class="venta1">lo vendo c/bidon</td>
+      <td class="venta2">lo vendo s/bidon</td>
+      <td class="cantidad">reserva</td>
+    </tr>
+    <tbody>
+      
+    </tbody>
+    <button id="agregar">+</button>
+  </table>
+  </div>
+  <div id="vendido div">
+  <table cellpadding="0" cellspacing="0" id="ventastabla">
+    <tr id="ventafila">
+      <td class="producto">nombre</td>
+      <td class="cantidad">litros</td>
+      <td class="conBidon">precio bidon</td>
+      <td class="fecha">fecha</td>
+      <td class="total">total</td>   
+    </tr>
+    <tbody>
+      
+    </tbody>
+
+  </table>
+        <button id="vendi">$</button> 
+  </div>
+  <div id="oculto">
+    <button id="menu2">LL</button>
+    <button id="inventario">inventario</button>
+    <br>
+    <button id="venta">venta</button>
+  </div>
+  <div id="add">
+    <button id="close">x</button>
+    <form id="form">
+      <input type="text" id="nombre"name="name" placeholder="nombre" >
+      <br>
+      <input type="number" id="sale"name="buy" placeholder="me sale" >
+      <br>
+      <input type="number" id="venta1"name="venta1" placeholder="venta con bidon" >
+      <br>
+      <input type="number" id="venta2"name="venta2" placeholder="venta sin bidon">
+      <br>
+      <input type="number" id="cantidad"name="cantidad" placeholder="cantidad">
+      <br>
+      <input type="submit" value="agregar">
+    </form>
+  </div>
+<div id="vendido">
+  <button id="closeventa">x</button>
+  <form id="formventa">
+    <select id="produc">
+      
+    </select>
+      <br>
+      <input type="number" id="cantidadlitros"name="buy" placeholder="cantidad" >
+      <br>
+    <select id="bidones">
+      <option value="0">sin bidon</option>
+      <option value="500">5 litros</option>
+      <option value="200">1 litro</option>
+      <option value="200">500 ml</option>
+      <option value="100">250 ml</option>
+    </select>
+    <label for="bidones">con bidon</label>
+      <br>
+      <input type="submit" value="vendido">
+    </form>
+</div>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
